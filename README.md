@@ -1,6 +1,7 @@
 ---
 task_categories:
 - object-detection
+license: wtfpl
 ---
 # AnimeHeadsv3 Object Detection Dataset
 
@@ -14,4 +15,4 @@ The annotations were created using the YOLO format, with each annotation file co
 
 ## Usage
 
-To use this dataset for object detection tasks, you can download the dataset files and annotations and use them to train your own object detection model. The annotation files are provided in the YOLO format, which can be used with popular object detection frameworks such as YOLOv5 and YOLOv8. 
+To use this dataset for object detection tasks, you can download the dataset files and annotations and use them to train your own object detection model. The annotation files are provided in the YOLO format, which can be used with popular object detection frameworks such as YOLOv5 and YOLOv8.
