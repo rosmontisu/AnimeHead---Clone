@@ -9,7 +9,7 @@ The AnimeHeadsv3 Object Detection Dataset is a collection of anime and art image
 
 ## Contents
 
-The dataset contains a total of 8037 images, split into training, validation, and testing sets. The images were collected from various sources and include a variety of anime and art styles, including manga.
+The dataset contains a total of 8157 images, split into training, validation, and testing sets. The images were collected from various sources and include a variety of anime and art styles, including manga.
 
 The annotations were created using the COCO format, with each annotation file containing the bounding box coordinates and label for each object in the corresponding image. The dataset has only one class named "head".
 
