@@ -11,8 +11,4 @@ The AnimeHeadsv3 Object Detection Dataset is a collection of anime and art image
 
 The dataset contains a total of 8037 images, split into training, validation, and testing sets. The images were collected from various sources and include a variety of anime and art styles, including manga.
 
-The annotations were created using the YOLO format, with each annotation file containing the bounding box coordinates and label for each object in the corresponding image. Dataset has only one class named "head".
-
-## Usage
-
-To use this dataset for object detection tasks, you can download the dataset files and annotations and use them to train your own object detection model. The annotation files are provided in the YOLO format, which can be used with popular object detection frameworks such as YOLOv5 and YOLOv8.
+The annotations were created using the COCO format, with each annotation file containing the bounding box coordinates and label for each object in the corresponding image. The dataset has only one class named "head".
