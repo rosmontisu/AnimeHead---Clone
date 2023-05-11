@@ -44,8 +44,8 @@ class AHv3(datasets.GeneratorBasedBuilder):
             filepath = os.path.join(folder_dir, filename)
             if filename in filename_to_image:
                 image = filename_to_image[filename]
-                objects = [process_annot(annot, category_id_to_category) for annot in image_id_to_annotations[image["id"]]]
                 with open(filepath, "rb") as f:
                     image_bytes = f.read()
-                yield idx, {"image_id": image["id"], "image": filepath, "height": image["height"], "width": image["width"], "objects": objects}
+                objects = [process_annot(annot, category_id_to_category) for annot in image_id_to_annotations[image["id"]]]
+                yield idx, {"image_id": image["id"], "image": {"path": filepath, "bytes": image_bytes}, "height": image["height"], "width": image["width"], "objects": objects}
                 idx += 1
