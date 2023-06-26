@@ -12,8 +12,8 @@ class AHv3Config(datasets.BuilderConfig):
 
 class AHv3(datasets.GeneratorBasedBuilder):
     BUILDER_CONFIGS = [
-        AHv3Config(name="With augmentation", data_urls={"train": "AHv3-AUG/train.zip", "validation": "AHv3-AUG/valid.zip", "test": "AHv3-AUG/test.zip"}),
-        AHv3Config(name="Without augmentation", data_urls={"train": "AHv3-NA/train.zip", "validation": "AHv3-NA/valid.zip", "test": "AHv3-NA/test.zip"}),
+        AHv3Config(name="With-augmentation", data_urls={"train": "AHv3-AUG/train.zip", "validation": "AHv3-AUG/valid.zip", "test": "AHv3-AUG/test.zip"}),
+        AHv3Config(name="Without-augmentation", data_urls={"train": "AHv3-NA/train.zip", "validation": "AHv3-NA/valid.zip", "test": "AHv3-NA/test.zip"}),
     ]
 
     def _info(self):
